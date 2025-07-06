@@ -1,16 +1,24 @@
 {
-  "name": "dont-throw",
+  "name": "@freelight-software/dont-throw",
   "version": "0.1.0",
   "description": "Result based function returns that prevent any exceptions from being thrown.",
   "license": "ISC",
   "author": "Marley Mulvin Broome",
   "type": "module",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "test": "vitest",
     "lint": "biome check",
     "lint:fix": "biome check --write",
-    "build": "tsup"
+    "build": "tsup",
+    "prepublish": "npm run build"
   },
   "devDependencies": {
     "@biomejs/biome": "2.0.6",
