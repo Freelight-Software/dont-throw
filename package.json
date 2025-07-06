@@ -1,6 +1,6 @@
 {
   "name": "dont-throw",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "Result based function returns that prevent any exceptions from being thrown.",
   "license": "ISC",
   "author": "Marley Mulvin Broome",
