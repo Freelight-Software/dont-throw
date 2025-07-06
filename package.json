@@ -1,0 +1,22 @@
+{
+  "name": "dont-throw",
+  "version": "1.0.0",
+  "description": "Result based function returns that prevent any exceptions from being thrown.",
+  "license": "ISC",
+  "author": "Marley Mulvin Broome",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "vitest",
+    "lint": "biome check",
+    "lint:fix": "biome check --write",
+    "build": "tsup"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "2.0.6",
+    "@types/node": "^24.0.10",
+    "tsup": "^8.5.0",
+    "typescript": "^5.8.3",
+    "vitest": "^3.2.4"
+  }
+}
