@@ -1,9 +1,31 @@
 {
   "name": "@freelight-software/dont-throw",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Result based function returns that prevent any exceptions from being thrown.",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Freelight-Software/dont-throw"
+  },
   "author": "Marley Mulvin Broome",
+  "contributors": [
+    {
+      "name": "Marley Mulvin Broome",
+      "email": "marley@freelight-software.com"
+    }
+  ],
+  "keywords": [
+    "result",
+    "typescript",
+    "error-handling",
+    "safe",
+    "no-throw",
+    "dont-throw",
+    "freelight",
+    "functional",
+    "try-catch",
+    "rust"
+  ],
   "type": "module",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
